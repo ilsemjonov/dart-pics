@@ -1,4 +1,4 @@
-// I need to import a helper library
+// Import a helper library
 // from flutter to get content on the screen
 import 'package:flutter/material.dart';
 
@@ -8,6 +8,7 @@ void main() {
   var app = MaterialApp(
     home: Text('Hi there!'),
   );
-  
+
   // Take that widget and get it on the screen
+  runApp(app);
 }
